@@ -36,7 +36,7 @@ import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
 import profileIMg from "../assets/img.png";
 
-export default {
+const myObj = {
   email,
   mobile,
   api,
@@ -72,3 +72,5 @@ export default {
   spotify,
   profileIMg,
 };
+
+export default myObj;

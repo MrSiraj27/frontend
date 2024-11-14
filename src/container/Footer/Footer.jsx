@@ -1,7 +1,6 @@
-import React, { useState } from "react";
 import "./Footer.css";
 import { AppWrap, MotionWrap } from "../../Wrapper";
-import { client } from "../../Client";
+
 import { images } from "../../constants";
 
 const Footer = () => {

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Works.css";
 import { AppWrap, MotionWrap } from "../../Wrapper";
 import { motion } from "framer-motion";
-import { AiFillEye, AiFillGithub } from "react-icons/ai";
+import { AiFillEye } from "react-icons/ai";
 import { urlFor, client } from "../../Client";
 
 const Work = () => {

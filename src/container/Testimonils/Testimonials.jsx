@@ -33,7 +33,7 @@ const Testimonials = () => {
         <>
           <div className="center">
             <div className="app__testimonial-item ">
-              <img src={urlFor(test.imgurl)} />
+              <img src={urlFor(test.imgurl)} alt="test" />
               <div className="app__testimonial-content">
                 <div>
                   <p className="p-text">{test.feedback}</p>
